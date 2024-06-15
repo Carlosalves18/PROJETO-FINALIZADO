@@ -44,7 +44,7 @@ function FormContato() {
         <Input type="email" name="email" value={FormData.email} onChange={Mudar} />
       </Label>
       <Label>
-        Menssagem:
+        Mensagem:
         <TextA name="message" value={FormData.message} onChange={Mudar}></TextA>
       </Label>
       <Button type="submit">ENVIAR</Button>
